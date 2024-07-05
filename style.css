@@ -1,0 +1,47 @@
+:root{
+    --salmon:#EF9D71;
+    --black:#000;
+    --white:#fff;
+    --cyan:#80becc;
+    --dsalmon:#62332e;
+    --dcyan:#192827;
+}
+ .videodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+ }
+
+.main[theme="black"]{
+    background-color: black;   
+}
+.main[theme="black"] .section{
+    color: #fff;  
+}
+.main[theme="cyan"]{
+    background-color: rgb(143, 220, 216);
+}
+.main[theme="cyan"] .section{
+    color: #121c1b;
+    
+}
+.main[theme="salmon"]{
+    background-color: salmon;
+}
+.main[theme="salmon"] .section{
+    color: #62332e;
+}
+.main[theme="white"]{
+    background-color: white;
+}
+.main[theme="white"] .section{
+   color: #000;
+}
+::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+.lol:hover{
+    color:white;
+    background: black;
+}
